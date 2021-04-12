@@ -1,0 +1,111 @@
+CREATE DATABASE FacturacionDigitalWare;
+
+USE FacturacionDigitalWare
+GO
+
+CREATE TABLE Cliente (
+ IdCliente int  IDENTITY(1,1) NOT NULL,
+ Nombre varchar(50),
+ Apellido varchar(50),
+ Edad int
+ Direccion varchar(50),
+ FechaNacimiento varchar(50),
+ Telefono varchar(50),
+ email varchar(50)
+
+ CONSTRAINT [PK_Cliente] PRIMARY KEY CLUSTERED
+ (
+   [IdCliente] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+)ON [PRIMARY]
+GO
+
+
+CREATE TABLE EncabezadoFactura (
+ IdFacturaEncabezado int  IDENTITY(1,1) NOT NULL,
+ IdCliente int,
+ fecha datetime,
+ IdModoPago int
+ 
+ CONSTRAINT [PK_EncabezadoFactura] PRIMARY KEY CLUSTERED
+ (
+   [IdFacturaEncabezado] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+
+  CONSTRAINT [UQ_EncabezadoFactura] UNIQUE NONCLUSTERED
+ (
+   [IdCliente] ASC,
+   [IdModoPago] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE ModoPago (
+ IdModoPago int  IDENTITY(1,1) NOT NULL,
+ NombreModoPago varchar(50),
+ OtrosDetalles varchar(50)
+ 
+ CONSTRAINT [PK_ModoPago] PRIMARY KEY CLUSTERED
+ (
+   [IdModoPago] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE DetalleFactura (
+ IdFacturaDetalle int  IDENTITY(1,1) NOT NULL,
+ IdFacturaEncabezado int,
+ IdProducto int,
+ Cantidad int,
+ Precio decimal
+ 
+ CONSTRAINT [PK_DetalleFactura] PRIMARY KEY CLUSTERED
+ (
+   [IdFacturaDetalle] ASC,
+   [IdFacturaEncabezado] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+
+  CONSTRAINT [UQ_DetalleFactura] UNIQUE NONCLUSTERED
+ (
+   [IdProducto] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+) ON [PRIMARY]
+GO
+
+
+
+CREATE TABLE Producto (
+ IdProducto int  IDENTITY(1,1) NOT NULL,
+ NombreProducto varchar(50),
+ PrecioProducto decimal,
+ stock int,
+ IdCategoria int
+ 
+ CONSTRAINT [PK_Producto] PRIMARY KEY CLUSTERED
+ (
+   [IdProducto] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+
+  CONSTRAINT [UQ_Producto] UNIQUE NONCLUSTERED
+ (
+   [IdCategoria] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE Categoria (
+ IdCategoria int  IDENTITY(1,1) NOT NULL,
+ NombreCategoria varchar(50),
+ DescripcionCategoria varchar(50)
+ 
+ CONSTRAINT [PK_Categoria] PRIMARY KEY CLUSTERED
+ (
+   [IdCategoria] ASC
+ )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+
+) ON [PRIMARY]
+GO
+
