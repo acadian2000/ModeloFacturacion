@@ -1,0 +1,14 @@
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\FacturacionDigitalWare.deps.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\FacturacionDigitalWare.runtimeconfig.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\FacturacionDigitalWare.runtimeconfig.dev.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\FacturacionDigitalWare.dll
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\FacturacionDigitalWare.pdb
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.dll
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.pdb
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.csprojResolveAssemblyReference.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.csproj.CoreCompileInputs.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.AssemblyInfoInputs.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.AssemblyInfo.cs
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.csproj.CopyComplete
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.dll
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\FacturacionDigitalWare\obj\Debug\netcoreapp2.0\FacturacionDigitalWare.pdb

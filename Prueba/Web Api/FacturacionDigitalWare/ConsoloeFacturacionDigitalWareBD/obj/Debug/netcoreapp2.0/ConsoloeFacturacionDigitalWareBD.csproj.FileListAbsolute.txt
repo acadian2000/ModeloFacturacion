@@ -1,0 +1,11 @@
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.deps.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.runtimeconfig.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.runtimeconfig.dev.json
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.dll
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\bin\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.pdb
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.csprojResolveAssemblyReference.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.csproj.CoreCompileInputs.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.AssemblyInfoInputs.cache
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.AssemblyInfo.cs
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.dll
+C:\Users\ing_w\source\repos\FacturacionDigitalWare\ConsoloeFacturacionDigitalWareBD\obj\Debug\netcoreapp2.0\ConsoloeFacturacionDigitalWareBD.pdb
